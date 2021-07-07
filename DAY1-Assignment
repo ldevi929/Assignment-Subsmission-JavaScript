@@ -1,0 +1,6 @@
+//executed this in online javascript compiler
+str = ""
+for (i=0;i<5;i++){
+  str=str.concat("*")
+}
+console.log(str)
