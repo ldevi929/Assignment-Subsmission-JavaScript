@@ -1,0 +1,12 @@
+var data = {
+    Fizz:3,
+    Buzz:5
+};
+
+for (var i=1;i<=100;i++) {
+    var value = '';
+    for (var k in data) {
+        value += i%data[k]?'':k;
+    }
+    console.log(value?value:i);
+}
